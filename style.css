@@ -31,6 +31,14 @@ ul>li>a{
     color: gray;
 }
 
+.bg-hero{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 450px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 300px;
+}
+
 .hero{
     background-image: url(banner.jpg);
     height: 450px;
@@ -38,4 +46,41 @@ ul>li>a{
     border-radius: 10px;
     background-position: center;
     margin-top: 30px;
+    
+}
+
+.hero > * {
+    color: white;
+}
+
+
+.leader{
+    color: gray;
+    font-size: 12px;
+}
+
+.leadership{
+    margin-top: 20px;
+}
+
+.clearfix{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+aside{
+    width: 25%;
+    border:gray 1px solid;
+    height: 400px;
+    float: left;
+}
+
+article{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border:gray 1px solid;
+    height: 400px;
+    float: left;
 }
